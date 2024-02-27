@@ -6,7 +6,7 @@
 }
 
 body{
-  min-height:100vh;
+  min-height:100dvh;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -36,12 +36,8 @@ nav ul{
   flex-wrap:wrap;
 }
 
-
-
-
 nav a{
   height:100%;
-
   text-decoration:none;
   color:#ffff;
   position: relative;
@@ -139,8 +135,8 @@ nav li button{
 
 .header-image-container .upload-text{
   text-align: center;
-  padding: 59px 0;
-  font-size: 2rem;
+  padding: 50px 0;
+  font-size: 3.2rem;
   color: #ffff;
 }
 
@@ -163,8 +159,10 @@ nav li button{
 
 .section2-conatiner .features-header{
   text-align: center;
-  padding: 60px 0;
-  font-size: 2rem;
+  padding: 40px 0 50px;
+  line-height: 1;
+  font-size: clamp(20px,2rem,50px);
+  color: rgb(39, 37, 39);
 
 }
 
@@ -174,6 +172,12 @@ nav li button{
   width: 100%;
   gap: 100px;
   color:#ffff;
+}
+
+.features-conatiner h2{
+  font-size: clamp(20px,2rem,50px);
+  color: rgb(39, 37, 39);
+  text-align: center;
 }
 
 .jsbutton{
@@ -326,7 +330,7 @@ footer{
   .header-image-container .upload-text{
     text-align: center;
     padding: 40px 0;
-    font-size: 1.42rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: #ffff;
   }

@@ -165,7 +165,7 @@ nav li button{
   text-align: center;
   padding: 40px 0 50px;
   line-height: 1;
-  font-size: clamp(20px,2rem,50px);
+  font-size: 2.2rem;
   color: rgb(39, 37, 39);
 
 }
@@ -184,7 +184,7 @@ nav li button{
   color: #f4b360;
 }
 .features-conatiner h2{
-  font-size: clamp(20px,2rem,50px);
+  font-size: 2rem;
   color: rgb(39, 37, 39);
   text-align: center;
 }
@@ -350,6 +350,13 @@ footer{
 
   .main-iphone-image img{
     max-width: 100%;
+  }
+  .features-conatiner h2{
+    font-size: 1.0rem;
+  }
+  .section2-conatiner .features-header{
+    font-size: 1.2rem;
+  
   }
 
 }

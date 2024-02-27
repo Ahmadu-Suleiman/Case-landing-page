@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   min-height:100dvh;
   font-family: 'Poppins', sans-serif;
@@ -166,6 +170,8 @@ nav li button{
 
 }
 
+
+
 .features-conatiner{
   display: flex;
   flex-direction: column;
@@ -174,6 +180,9 @@ nav li button{
   color:#ffff;
 }
 
+.features-text span{
+  color: #f4b360;
+}
 .features-conatiner h2{
   font-size: clamp(20px,2rem,50px);
   color: rgb(39, 37, 39);
